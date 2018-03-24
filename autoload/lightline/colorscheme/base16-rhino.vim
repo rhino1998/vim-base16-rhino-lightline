@@ -3,48 +3,48 @@
 " Base 16 Rhino Scheme by Rhino1998 (https://github.com/rhino1998)
 
 " Hex colors for GUI and Neovim in TrueColor mode
-let s:hex00 = "#050505"
-let s:hex01 = "#232323"
-let s:hex02 = "#37474F"
-let s:hex03 = "#707880"
-let s:hex04 = "#C9CCD3"
-let s:hex05 = "#CDD3DE"
-let s:hex06 = "#D5DBE5"
-let s:hex07 = "#FFFFFF"
-let s:hex08 = "#EC5F67"
-let s:hex09 = "#EA9560"
-let s:hex0A = "#FFCC00"
-let s:hex0B = "#8BD649"
-let s:hex0C = "#80CBC4"
-let s:hex0D = "#89DDFF"
-let s:hex0E = "#82AAFF"
-let s:hex0F = "#EC5F67"
+let s:hex00 = '#050505'
+let s:hex01 = '#232323'
+let s:hex02 = '#37474F'
+let s:hex03 = '#707880'
+let s:hex04 = '#C9CCD3'
+let s:hex05 = '#CDD3DE'
+let s:hex06 = '#D5DBE5'
+let s:hex07 = '#FFFFFF'
+let s:hex08 = '#EC5F67'
+let s:hex09 = '#EA9560'
+let s:hex0A = '#FFCC00'
+let s:hex0B = '#8BD649'
+let s:hex0C = '#80CBC4'
+let s:hex0D = '#89DDFF'
+let s:hex0E = '#82AAFF'
+let s:hex0F = '#EC5F67'
 
 " Terminal color definitions
-let s:cterm00 = "00"
-let s:cterm03 = "08"
-let s:cterm05 = "07"
-let s:cterm07 = "15"
-let s:cterm08 = "01"
-let s:cterm0A = "03"
-let s:cterm0B = "02"
-let s:cterm0C = "06"
-let s:cterm0D = "04"
-let s:cterm0E = "05"
-if exists('base16colorspace') && base16colorspace == "256"
-  let s:cterm01 = "18"
-  let s:cterm02 = "19"
-  let s:cterm04 = "20"
-  let s:cterm06 = "21"
-  let s:cterm09 = "16"
-  let s:cterm0F = "17"
+let s:cterm00 = '00'
+let s:cterm03 = '08'
+let s:cterm05 = '07'
+let s:cterm07 = '15'
+let s:cterm08 = '01'
+let s:cterm0A = '03'
+let s:cterm0B = '02'
+let s:cterm0C = '06'
+let s:cterm0D = '04'
+let s:cterm0E = '05'
+if exists('base16colorspace') && base16colorspace == '256'
+  let s:cterm01 = '18'
+  let s:cterm02 = '19'
+  let s:cterm04 = '20'
+  let s:cterm06 = '21'
+  let s:cterm09 = '16'
+  let s:cterm0F = '17'
 else
-  let s:cterm01 = "10"
-  let s:cterm02 = "11"
-  let s:cterm04 = "12"
-  let s:cterm06 = "13"
-  let s:cterm09 = "09"
-  let s:cterm0F = "14"
+  let s:cterm01 = '10'
+  let s:cterm02 = '11'
+  let s:cterm04 = '12'
+  let s:cterm06 = '13'
+  let s:cterm09 = '09'
+  let s:cterm0F = '14'
 endif
 
 " Base16 color pairs
